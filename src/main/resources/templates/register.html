@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Register</title>
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/5.0.2/css/bootstrap.min.css} "/>
+    <link th:rel="stylesheet" th:href="@{/webjars/font-awesome/5.15.3/css/all.css} "/>
+    <meta http-equiv="refresh" content="30; URL=/">
+</head>
+<body>
+<form action="/doRegister" method="post">
+    userName: <input type="text" name="username">
+    <br/>
+    password: <input type="password" name="password">
+    <br/>
+    <button type="submit" value="register">register</button>
+</form>
+</body>
+</html>

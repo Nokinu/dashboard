@@ -1,0 +1,13 @@
+debug: true
+spring:
+  h2:
+    console:
+      enabled: true
+  config:
+    activate:
+      on-profile: integratedTest
+  datasource:
+    url: jdbc:h2:~/dashboard
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
